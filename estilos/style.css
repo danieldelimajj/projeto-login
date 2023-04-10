@@ -1,1 +1,90 @@
 @charset "UTF-8";
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+  background-color: rgb(171, 190, 241);
+}
+
+#login { /*Fundo formulário*/
+  margin: auto;
+  background-color: white;
+  width: 280px;
+  height: 614px;
+  margin-top: 170px;
+  border-radius: 28px;
+}
+
+
+#imagem img { /*Imagem formulário*/
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  width: 280px;
+  height: 250px;
+}
+
+#formulario h1 { /*Título formulário*/
+  text-align: center;
+  padding: 12px;
+  font-size: 28px;
+}
+
+#formulario p { /*Parágrafo formulário*/
+  text-indent: 10px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.material-symbols-outlined { /*Icon E-mail*/
+ margin-top: 10px;
+ padding-left: 4px;
+ 
+}
+
+.email, .password { /*Botão E-mail e senha*/
+  background-color: rgb(173, 173, 240);
+  width: 260px;
+  height: 48px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.email input, .password input { /*Botão interno e-mail e senha */
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  width: 213px;
+  height: 30px;
+  padding-top: 10px;
+  margin-left: 12px;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.password {
+  margin-top: 8px;
+}
+
+.submit input, .forget-password input {
+  margin-top: 15px;
+  margin-left: 40px;
+  width: 210px;
+  height: 34px;
+  border: none;
+  border-radius: 9px;
+  color: white;
+  font-size: 18px;
+  background-color: rgb(173, 173, 240);
+}
+
+
+.submit input:hover, .forget-password input:hover {
+  cursor: pointer;
+  background-color: rgb(134, 134, 197);
+}
