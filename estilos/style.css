@@ -45,3 +45,30 @@ section div#formulario {
   display: block;
   padding: 10px;
 }
+
+.material-symbols-outlined {
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+section div.email-senha {
+  background-color: rgb(168, 184, 230);
+  width: 220px;
+  height: 46px;
+  margin: 8px 0px 0px 15px;
+  border-radius: 5px;
+}
+
+.email-senha input {
+  border: none;
+  background-color: white;
+  width: 170px;
+  height: 28px;
+  margin-left: 6px;
+  padding: 12px 0px 2px 0px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+
+
