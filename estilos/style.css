@@ -42,6 +42,7 @@ section#login div#imagem {
 }
 
 section div#formulario {
+  overflow: hidden;
   display: block;
   padding: 10px;
 }
